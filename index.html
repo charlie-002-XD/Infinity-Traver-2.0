@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Travel — Donde el horizonte nunca termina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Infinity<span>Travel</span></div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#destinos">Destinos</a></li>
+      <li><a href="#historia">Nosotros</a></li>
+      <li><a href="#reservar" class="btn-nav">Reservar</a></li>
+    </ul>
+    <button class="lang-toggle" id="langToggle">EN</button>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="video-wrapper">
+      <iframe
+        id="yt-player"
+        src="https://youtu.be/AESmnzwl0D8?si=mg2nb8fQFctle8Mz"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+      <div class="video-overlay"></div>
+    </div>
+    <div class="hero-content reveal">
+      <p class="hero-tag" data-es="Viajes de ensueño" data-en="Dream Journeys">Viajes de ensueño</p>
+      <h1 data-es="Donde el horizonte<br>nunca termina" data-en="Where the horizon<br>never ends">
+        Donde el horizonte<br>nunca termina
+      </h1>
+      <p class="hero-sub" data-es="Vuelos, hoteles y experiencias únicas a tu medida." data-en="Flights, hotels and unique experiences tailored for you.">
+        Vuelos, hoteles y experiencias únicas a tu medida.
+      </p>
+      <div class="hero-btns">
+        <a href="#reservar" class="btn-primary" data-es="Reservar ahora" data-en="Book now">Reservar ahora</a>
+        <a href="#servicios" class="btn-outline" data-es="Ver servicios" data-en="Our services">Ver servicios</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section servicios" id="servicios">
+    <div class="section-header reveal">
+      <p class="section-tag" data-es="Lo que ofrecemos" data-en="What we offer">Lo que ofrecemos</p>
+      <h2 data-es="Nuestros Servicios" data-en="Our Services">Nuestros Servicios</h2>
+    </div>
+    <div class="cards-grid">
+      <div class="card reveal">
+        <div class="card-icon">✈</div>
+        <h3 data-es="Solo Vuelo" data-en="Flight Only">Solo Vuelo</h3>
+        <p data-es="Reserva tu vuelo al destino que elijas. Nosotros nos encargamos de todo el proceso." data-en="Book your flight to any destination. We handle the entire process.">
+          Reserva tu vuelo al destino que elijas. Nosotros nos encargamos de todo el proceso.
+        </p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">🏨</div>
+        <h3 data-es="Vuelo + Hotel" data-en="Flight + Hotel">Vuelo + Hotel</h3>
+        <p data-es="Combo completo con hotel seleccionado. Llegás y todo está listo para ti." data-en="Complete combo with selected hotel. You arrive and everything is ready.">
+          Combo completo con hotel seleccionado. Llegás y todo está listo para ti.
+        </p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">🌍</div>
+        <h3 data-es="Paquete Premium" data-en="Premium Package">Paquete Premium</h3>
+        <p data-es="Experiencia todo incluido: vuelo, hotel, traslados y actividades exclusivas." data-en="All-inclusive experience: flights, hotel, transfers and exclusive activities.">
+          Experiencia todo incluido: vuelo, hotel, traslados y actividades exclusivas.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINOS -->
+  <section class="section destinos" id="destinos">
+    <div class="section-header reveal">
+      <p class="section-tag" data-es="Explora el mundo" data-en="Explore the world">Explora el mundo</p>
+      <h2 data-es="Destinos Populares" data-en="Popular Destinations">Destinos Populares</h2>
+    </div>
+    <div class="destinos-grid">
+      <div class="destino-card reveal" style="--bg: url('https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800')">
+        <div class="destino-overlay"></div>
+        <div class="destino-info">
+          <h3>París</h3>
+          <p data-es="Francia" data-en="France">Francia</p>
+        </div>
+      </div>
+      <div class="destino-card reveal" style="--bg: url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800')">
+        <div class="destino-overlay"></div>
+        <div class="destino-info">
+          <h3>Tokio</h3>
+          <p data-es="Japón" data-en="Japan">Japón</p>
+        </div>
+      </div>
+      <div class="destino-card reveal" style="--bg: url('https://images.unsplash.com/photo-1490644658840-3f2e3f8c5625?w=800')">
+        <div class="destino-overlay"></div>
+        <div class="destino-info">
+          <h3>Bali</h3>
+          <p data-es="Indonesia" data-en="Indonesia">Indonesia</p>
+        </div>
+      </div>
+      <div class="destino-card reveal" style="--bg: url('https://images.unsplash.com/photo-1534430480872-3498386e7856?w=800')">
+        <div class="destino-overlay"></div>
+        <div class="destino-info">
+          <h3>Nueva York</h3>
+          <p data-es="Estados Unidos" data-en="United States">Estados Unidos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORIA -->
+  <section class="section historia" id="historia">
+    <div class="historia-inner">
+      <div class="historia-text reveal">
+        <p class="section-tag" data-es="Nuestra historia" data-en="Our story">Nuestra historia</p>
+        <h2 data-es="Quiénes Somos" data-en="Who We Are">Quiénes Somos</h2>
+        <p data-es="Infinity Travel nació de un sueño simple: hacer que viajar sea accesible, memorable y sin complicaciones. Desde nuestros inicios, hemos conectado a miles de viajeros con los destinos más increíbles del mundo." data-en="Infinity Travel was born from a simple dream: to make travel accessible, memorable and hassle-free. Since our beginnings, we have connected thousands of travelers with the most incredible destinations in the world.">
+          Infinity Travel nació de un sueño simple: hacer que viajar sea accesible, memorable y sin complicaciones. Desde nuestros inicios, hemos conectado a miles de viajeros con los destinos más increíbles del mundo.
+        </p>
+        <p data-es="Creemos que cada viaje es una historia. Y nosotros estamos aquí para ayudarte a escribirla." data-en="We believe every trip is a story. And we are here to help you write it.">
+          Creemos que cada viaje es una historia. Y nosotros estamos aquí para ayudarte a escribirla.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h3>+10K</h3>
+            <p data-es="Viajeros felices" data-en="Happy travelers">Viajeros felices</p>
+          </div>
+          <div class="stat">
+            <h3>+80</h3>
+            <p data-es="Destinos" data-en="Destinations">Destinos</p>
+          </div>
+          <div class="stat">
+            <h3>8</h3>
+            <p data-es="Años de experiencia" data-en="Years of experience">Años de experiencia</p>
+          </div>
+        </div>
+      </div>
+      <div class="historia-img reveal">
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800" alt="Avión en vuelo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVAR -->
+  <section class="section reservar" id="reservar">
+    <div class="section-header reveal">
+      <p class="section-tag" data-es="Comienza tu aventura" data-en="Start your adventure">Comienza tu aventura</p>
+      <h2 data-es="Haz tu Reservación" data-en="Make Your Reservation">Haz tu Reservación</h2>
+    </div>
+    <form class="form reveal" id="reservaForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label data-es="Nombre completo" data-en="Full name">Nombre completo</label>
+          <input type="text" placeholder="Tu nombre" />
+        </div>
+        <div class="form-group">
+          <label data-es="Correo electrónico" data-en="robertlima2691@gmail.com">Correo electrónico</label>
+          <input type="email" placeholder="Ejemplo@gmail.com" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label data-es="Destino" data-en="Destination">Destino</label>
+          <input type="text" placeholder="¿A dónde quieres ir?" />
+        </div>
+        <div class="form-group">
+          <label data-es="Tipo de paquete" data-en="Package type">Tipo de paquete</label>
+          <select>
+            <option data-es="Solo vuelo" data-en="Flight only">Solo vuelo</option>
+            <option data-es="Vuelo + Hotel" data-en="Flight + Hotel">Vuelo + Hotel</option>
+            <option data-es="Paquete Premium" data-en="Premium Package">Paquete Premium</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label data-es="Fecha de salida" data-en="Departure date">Fecha de salida</label>
+          <input type="date" />
+        </div>
+        <div class="form-group">
+          <label data-es="Número de pasajeros" data-en="Number of passengers">Número de pasajeros</label>
+          <input type="number" min="1" placeholder="1" />
+        </div>
+      </div>
+      <button type="submit" class="btn-primary btn-full" data-es="Enviar Reservación" data-en="Send Reservation">Enviar Reservación</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Infinity<span>Travel</span></p>
+        <p data-es="Donde el horizonte nunca termina." data-en="Where the horizon never ends.">Donde el horizonte nunca termina.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a>
+        <a href="#destinos" data-es="Destinos" data-en="Destinations">Destinos</a>
+        <a href="#historia" data-es="Nosotros" data-en="About us">Nosotros</a>
+        <a href="#reservar" data-es="Reservar" data-en="Book">Reservar</a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Roberto Carlos Lima Castillo. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
